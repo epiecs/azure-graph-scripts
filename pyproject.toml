@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "azure-graph-scripts"
+name = "azuregraphscripts"
 version = "2024.08.22"
 dependencies = [
   "httpx>=0.26.0",
