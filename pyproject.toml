@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-graph-scripts"
+version = "2024.08.22"
+dependencies = [
+  "httpx>=0.26.0",
+  "hishel>=0.0.24"
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Gregory Bers", email = "gregorybers@epiecs.be"},
+]
+maintainers = [
+  {name = "Gregory Bers", email = "gregorybers@epiecs.be"},
+]
+description = "Scripts to connect to and work with the Microsoft Graph Api"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["microsoft", "graph", "api", "httpx", "azure", "entra"]
+classifiers = [
+    "Programming Language :: Python",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/epiecs/azure-graph-scripts"
+Documentation = "https://github.com/epiecs/azure-graph-scripts"
+Repository = "https://github.com/epiecs/azure-graph-scripts.git"
